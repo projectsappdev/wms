@@ -1,0 +1,214 @@
+CRITICAL - 2021-10-03 05:13:55 --> Undefined variable $output
+#0 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->chartData()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-03 05:19:26 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Controllers\Notif.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Notif->index()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notif))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-03 05:19:27 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Controllers\Notif.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Notif->load_unseen()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notif))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-03 05:19:29 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Controllers\Notif.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Notif->load_unseen()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notif))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-03 05:31:43 --> Undefined variable $attempt
+#0 C:\xampp\htdocs\WMS3\app\Views\user_brgy\review.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('user_brgy/revie...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(66): view('user_brgy/revie...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->reviewB()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-03 05:32:59 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Controllers\Notif.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Notif->load_unseen()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Notif))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-03 18:33:01 --> Undefined variable $attempt
+#0 C:\xampp\htdocs\WMS3\app\Views\user_brgy\review.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('user_brgy/revie...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(66): view('user_brgy/revie...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->reviewB()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-03 18:33:02 --> Undefined variable $attempt
+#0 C:\xampp\htdocs\WMS3\app\Views\user_brgy\review.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('user_brgy/revie...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(66): view('user_brgy/revie...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->reviewB()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-03 18:33:02 --> Undefined variable $attempt
+#0 C:\xampp\htdocs\WMS3\app\Views\user_brgy\review.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('user_brgy/revie...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(66): view('user_brgy/revie...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->reviewB()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-03 18:33:02 --> Undefined variable $attempt
+#0 C:\xampp\htdocs\WMS3\app\Views\user_brgy\review.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('user_brgy/revie...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(66): view('user_brgy/revie...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->reviewB()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-03 18:33:03 --> Undefined variable $attempt
+#0 C:\xampp\htdocs\WMS3\app\Views\user_brgy\review.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('user_brgy/revie...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(66): view('user_brgy/revie...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->reviewB()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-03 18:33:35 --> Array to string conversion
+#0 C:\xampp\htdocs\WMS3\app\Views\user_brgy\review.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('user_brgy/revie...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(66): view('user_brgy/revie...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->reviewB()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-03 18:33:36 --> Array to string conversion
+#0 C:\xampp\htdocs\WMS3\app\Views\user_brgy\review.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('user_brgy/revie...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(66): view('user_brgy/revie...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->reviewB()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-03 18:33:37 --> Array to string conversion
+#0 C:\xampp\htdocs\WMS3\app\Views\user_brgy\review.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('user_brgy/revie...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(66): view('user_brgy/revie...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->reviewB()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-03 18:33:37 --> Array to string conversion
+#0 C:\xampp\htdocs\WMS3\app\Views\user_brgy\review.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('user_brgy/revie...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(66): view('user_brgy/revie...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->reviewB()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-03 18:33:37 --> Array to string conversion
+#0 C:\xampp\htdocs\WMS3\app\Views\user_brgy\review.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('user_brgy/revie...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(66): view('user_brgy/revie...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->reviewB()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-03 18:36:57 --> Array to string conversion
+#0 C:\xampp\htdocs\WMS3\app\Views\user_brgy\review.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('user_brgy/revie...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(66): view('user_brgy/revie...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->reviewB()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-03 22:14:55 --> Undefined variable $rowSub
+#0 C:\xampp\htdocs\WMS3\app\Views\user_brgy\backlog_entry.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('user_brgy/backl...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(117): view('user_brgy/backl...')
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backlog_entry()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-03 22:15:29 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\user_brgy\backlog_entry.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('user_brgy/backl...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(117): view('user_brgy/backl...')
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backlog_entry()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-03 23:00:47 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\user_brgy\backlog_entry.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('user_brgy/backl...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(117): view('user_brgy/backl...')
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backlog_entry()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-03 23:36:44 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->getSubmissionDate()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-03 23:36:45 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->getSubmissionDate()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

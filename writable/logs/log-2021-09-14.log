@@ -1,0 +1,206 @@
+ERROR - 2021-09-14 00:16:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = 'Biodegradable' AND DATE_FORMAT(created_at, '%Y-%m-%d') BE...' at line 3
+CRITICAL - 2021-09-14 00:16:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = 'Biodegradable' AND DATE_FORMAT(created_at, '%Y-%m-%d') BE...' at line 3
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('Biodegradable', '2021-09-13', '2021-09-15', Array)
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-14 00:16:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = 'Biodegradable' AND DATE_FORMAT(created_at, '%Y-%m-%d') BE...' at line 3
+CRITICAL - 2021-09-14 00:16:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = 'Biodegradable' AND DATE_FORMAT(created_at, '%Y-%m-%d') BE...' at line 3
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('Biodegradable', '2021-09-13', '2021-09-15', Array)
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-14 00:16:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = 'Biodegradable' AND DATE_FORMAT(created_at, '%Y-%m-%d') BE...' at line 3
+CRITICAL - 2021-09-14 00:16:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = 'Biodegradable' AND DATE_FORMAT(created_at, '%Y-%m-%d') BE...' at line 3
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('Biodegradable', '2021-09-13', '2021-09-15', Array)
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-14 00:21:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = '' AND `brgy_name` IN ('1')
+ORDER BY `brgy_name` ASC
+ LIMI...' at line 3
+CRITICAL - 2021-09-14 00:21:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = '' AND `brgy_name` IN ('1')
+ORDER BY `brgy_name` ASC
+ LIMI...' at line 3
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('', '', '', Array)
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-14 00:22:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = 'Biodegradable' AND `brgy_name` IN ('Herrero')
+ORDER BY `b...' at line 3
+CRITICAL - 2021-09-14 00:22:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = 'Biodegradable' AND `brgy_name` IN ('Herrero')
+ORDER BY `b...' at line 3
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('Biodegradable', '', '', Array)
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-14 00:23:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = 'Biodegradable' AND `brgy_name` IN ('Herrero')
+ORDER BY `b...' at line 3
+CRITICAL - 2021-09-14 00:23:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = 'Biodegradable' AND `brgy_name` IN ('Herrero')
+ORDER BY `b...' at line 3
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('Biodegradable', '', '', Array)
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-14 00:23:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = 'Biodegradable' AND `brgy_name` IN ('Herrero')
+ORDER BY `b...' at line 3
+CRITICAL - 2021-09-14 00:23:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = 'Biodegradable' AND `brgy_name` IN ('Herrero')
+ORDER BY `b...' at line 3
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('Biodegradable', '', '', Array)
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-14 00:33:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = 'Biodegradable' AND `brgy_name` IN ('1', 'Tebeng', 'Tapuac...' at line 3
+CRITICAL - 2021-09-14 00:33:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = 'Biodegradable' AND `brgy_name` IN ('1', 'Tebeng', 'Tapuac...' at line 3
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('Biodegradable', '', '', Array)
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-14 00:33:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = 'Biodegradable' AND `brgy_name` IN ('1', 'Tebeng', 'Tapuac...' at line 3
+CRITICAL - 2021-09-14 00:33:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = 'Biodegradable' AND `brgy_name` IN ('1', 'Tebeng', 'Tapuac...' at line 3
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('Biodegradable', '', '', Array)
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-14 00:33:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = 'Biodegradable' AND `brgy_name` IN ('1')
+ORDER BY `brgy_na...' at line 3
+CRITICAL - 2021-09-14 00:33:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `waste_type` = 'Biodegradable' AND `brgy_name` IN ('1')
+ORDER BY `brgy_na...' at line 3
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('Biodegradable', '', '', Array)
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-09-14 00:42:30 --> date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(62): date_format('2021-09-14', 'Y-m-d')
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('1', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-14 00:42:36 --> date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(62): date_format('2021-09-14', 'Y-m-d')
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('1', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-14 01:00:37 --> Undefined variable $data_select_waste
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('1', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-14 01:11:41 --> Undefined variable $data_select_waste
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 103)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-14 01:12:29 --> Undefined variable $data_select_waste
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 103)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-14 01:12:31 --> Undefined variable $data_select_waste
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 103)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-14 01:12:43 --> Undefined variable $data_select_waste
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 103)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-14 01:13:33 --> Undefined variable $data_select_waste
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 103)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

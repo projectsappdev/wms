@@ -1,0 +1,190 @@
+CRITICAL - 2021-08-15 03:58:42 --> Undefined array key "account_type"
+#0 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 188)
+#1 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(252): monken\TablesIgniter->getOutputData(Array)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccount.php(29): monken\TablesIgniter->getDatatable()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccount->fetch_allB()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccount))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-15 04:02:58 --> Undefined array key "phone_no"
+#0 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 188)
+#1 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(252): monken\TablesIgniter->getOutputData(Array)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccount.php(29): monken\TablesIgniter->getDatatable()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccount->fetch_allB()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccount))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-15 04:03:17 --> Undefined array key "phone_no"
+#0 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 188)
+#1 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(252): monken\TablesIgniter->getOutputData(Array)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccount.php(29): monken\TablesIgniter->getDatatable()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccount->fetch_allB()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccount))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-15 04:03:55 --> Undefined array key "phone_no"
+#0 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 188)
+#1 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(252): monken\TablesIgniter->getOutputData(Array)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccount.php(29): monken\TablesIgniter->getDatatable()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccount->fetch_allB()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccount))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-08-15 04:05:38 --> Unknown column 'brgy_id' in 'where clause'
+CRITICAL - 2021-08-15 04:05:38 --> Unknown column 'brgy_id' in 'where clause'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccount.php(118): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccount->fetch_single_dataB()
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccount))
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-08-15 04:05:39 --> Unknown column 'brgy_id' in 'where clause'
+CRITICAL - 2021-08-15 04:05:39 --> Unknown column 'brgy_id' in 'where clause'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccount.php(118): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccount->fetch_single_dataB()
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccount))
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-08-15 04:05:40 --> Unknown column 'brgy_id' in 'where clause'
+CRITICAL - 2021-08-15 04:05:40 --> Unknown column 'brgy_id' in 'where clause'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccount.php(118): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccount->fetch_single_dataB()
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccount))
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-08-15 04:05:40 --> Unknown column 'brgy_id' in 'where clause'
+CRITICAL - 2021-08-15 04:05:40 --> Unknown column 'brgy_id' in 'where clause'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccount.php(118): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccount->fetch_single_dataB()
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccount))
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-08-15 04:05:40 --> Unknown column 'brgy_id' in 'where clause'
+CRITICAL - 2021-08-15 04:05:40 --> Unknown column 'brgy_id' in 'where clause'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccount.php(118): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccount->fetch_single_dataB()
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccount))
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-08-15 04:05:47 --> Unknown column 'brgy_id' in 'where clause'
+CRITICAL - 2021-08-15 04:05:47 --> Unknown column 'brgy_id' in 'where clause'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccount.php(118): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccount->fetch_single_dataB()
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccount))
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-08-15 04:06:53 --> Unknown column 'brgy_id' in 'where clause'
+CRITICAL - 2021-08-15 04:06:53 --> Unknown column 'brgy_id' in 'where clause'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccount.php(118): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccount->fetch_single_dataB()
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccount))
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-08-15 06:32:15 --> Table 'dbwms.administrator' doesn't exist
+CRITICAL - 2021-08-15 06:32:15 --> Table 'dbwms.administrator' doesn't exist
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(171): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(249): monken\TablesIgniter->getQuery()
+#6 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccountAdmin.php(26): monken\TablesIgniter->getDatatable()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccountAdmin->fetch_allB()
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccountAdmin))
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-08-15 06:33:02 --> Table 'dbwms.administrator' doesn't exist
+CRITICAL - 2021-08-15 06:33:02 --> Table 'dbwms.administrator' doesn't exist
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(171): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(249): monken\TablesIgniter->getQuery()
+#6 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccountAdmin.php(26): monken\TablesIgniter->getDatatable()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccountAdmin->fetch_allB()
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccountAdmin))
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-08-15 06:33:33 --> Table 'dbwms.administrator' doesn't exist
+CRITICAL - 2021-08-15 06:33:33 --> Table 'dbwms.administrator' doesn't exist
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(171): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(249): monken\TablesIgniter->getQuery()
+#6 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccountAdmin.php(26): monken\TablesIgniter->getDatatable()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccountAdmin->fetch_allB()
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccountAdmin))
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-08-15 06:33:54 --> Table 'dbwms.administrator' doesn't exist
+CRITICAL - 2021-08-15 06:33:54 --> Table 'dbwms.administrator' doesn't exist
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(171): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(249): monken\TablesIgniter->getQuery()
+#6 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccountAdmin.php(26): monken\TablesIgniter->getDatatable()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccountAdmin->fetch_allB()
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccountAdmin))
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

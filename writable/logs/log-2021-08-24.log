@@ -1,0 +1,1147 @@
+CRITICAL - 2021-08-24 02:42:20 --> Undefined variable $data_select_waste
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('Biodegradable', '', '')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-24 02:45:30 --> Undefined variable $data_select_waste
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('Biodegradable', '', '')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-24 02:54:23 --> Undefined variable $data_select_waste
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('Biodegradable', '', '')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-24 02:54:47 --> Undefined variable $data_select_waste
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('Biodegradable', '', '')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-24 02:54:51 --> Undefined variable $data_select_waste
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('Non-Biodegradab...', '', '')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-24 09:56:36 --> Undefined variable $users
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 106)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(21): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 09:57:05 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 106)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(21): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 09:57:35 --> Undefined variable $no
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(21): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 09:57:37 --> Undefined variable $no
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(21): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:23:04 --> Undefined property: App\Controllers\GenerateReport::$load
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdf()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 10:32:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:33:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:34:36 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:34:36 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:34:36 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:35:23 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:35:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:35:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:35:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:35:58 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:37:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:37:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:37:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:37:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:37:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:37:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:37:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:39:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 109)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:40:36 --> Undefined array key "name"
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 109)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(27): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:41:03 --> Undefined array key "name"
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 109)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(27): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:42:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 109)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(27): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:42:52 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 109)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(27): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:57:01 --> Invalid file: pdf_view.php
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf_view.php')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('pdf_view', Array, true)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(32): view('pdf_view')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdf()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-24 10:57:43 --> Undefined variable $user_data
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 104)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(32): view('admin/generate_...')
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdf()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:58:01 --> Undefined variable $user_data
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 104)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(35): view('admin/generate_...')
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdf()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 10:58:09 --> Undefined variable $user_data
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 104)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(35): view('admin/generate_...')
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdf()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 11:17:46 --> Call to undefined method App\Models\ReportModel::allData
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(21): CodeIgniter\Model->__call('allData', Array)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 11:31:33 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(31): view('admin/v_printpd...', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdf()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-24 11:33:47 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(31): view('admin/v_printpd...', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdf()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-24 11:34:14 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(31): view('admin/v_printpd...', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdf()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-24 11:34:19 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(31): view('admin/v_printpd...', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdf()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-24 11:35:54 --> Undefined array key "2021-08-24"
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\v_printpdf.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(31): view('admin/v_printpd...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdf()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 11:37:26 --> Undefined array key "daya"
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\v_printpdf.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(31): view('admin/v_printpd...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdf()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 11:37:56 --> Undefined array key "daya"
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\v_printpdf.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(31): view('admin/v_printpd...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdf()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 11:42:45 --> syntax error, unexpected string content "MAX(CASE WHEN DA", expecting ")"
+#0 C:\xampp\htdocs\WMS3\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\WMS3\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Repo...')
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Repo...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(900): App\Controllers\GenerateReport->__construct()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-24 12:21:36 --> Undefined array key "day25"
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\v_printpdf.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(41): view('admin/v_printpd...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdf()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 19:41:18 --> Undefined array key 7
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 19:41:32 --> Undefined array key 7
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 19:41:33 --> Undefined array key 7
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 19:42:18 --> Undefined array key 7
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 19:51:55 --> Call to undefined function 2021-08-23()
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-24 19:52:41 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(34): date('2021-08-23', 'w')
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 19:53:24 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(34): date('w', '2021-08-23')
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 19:53:25 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(34): date('w', '2021-08-23')
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 19:53:26 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(34): date('w', '2021-08-23')
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 19:53:26 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(34): date('w', '2021-08-23')
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 19:53:27 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(34): date('w', '2021-08-23')
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 19:53:27 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(34): date('w', '2021-08-23')
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 19:53:27 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(34): date('w', '2021-08-23')
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 19:53:28 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(34): date('w', '2021-08-23')
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 19:54:04 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(34): date('w', '2021-08-1')
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 19:54:05 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(34): date('w', '2021-08-1')
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 19:58:44 --> Array to string conversion
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 19:59:15 --> Array to string conversion
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 19:59:53 --> Array to string conversion
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 20:11:06 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 20:11:08 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 20:11:20 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-08-24 20:33:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND DATE(created_at) BETWEEN '2021-08-23' AND '2021-08-29'
+GROUP BY `waste_br...' at line 3
+CRITICAL - 2021-08-24 20:33:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND DATE(created_at) BETWEEN '2021-08-23' AND '2021-08-29'
+GROUP BY `waste_br...' at line 3
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `waste_b...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `waste_b...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `waste_b...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `waste_b...', Array, false)
+#4 C:\xampp\htdocs\WMS3\app\Models\ReportModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(41): App\Models\ReportModel->weeklyData()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-24 20:35:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MAX(CASE WHEN WEEKDAY(waste_brgy.created_at) = "2" THEN ROUND(waste_brgy.volu...' at line 2
+CRITICAL - 2021-08-24 20:35:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MAX(CASE WHEN WEEKDAY(waste_brgy.created_at) = "2" THEN ROUND(waste_brgy.volu...' at line 2
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `waste_b...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `waste_b...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `waste_b...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `waste_b...', Array, false)
+#4 C:\xampp\htdocs\WMS3\app\Models\ReportModel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(41): App\Models\ReportModel->weeklyData()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-24 20:42:46 --> Undefined array key "cols"
+#0 C:\xampp\htdocs\WMS3\vendor\tecnickcom\tcpdf\tcpdf.php(17049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17049)
+#1 C:\xampp\htdocs\WMS3\vendor\tecnickcom\tcpdf\tcpdf.php(17320): TCPDF->getHtmlDomArray('<body>&nbsp; <d...')
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(63): TCPDF->writeHTML('<!-- DEBUG-VIEW...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdf()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-24 20:59:04 --> Too few arguments to function App\Models\ReportModel::weeklyData(), 0 passed in C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php on line 41 and exactly 1 expected
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(41): App\Models\ReportModel->weeklyData()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:09:49 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:09:50 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:09:51 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:09:51 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:09:51 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:10:56 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:10:56 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:10:57 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:10:58 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:10:58 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:11:11 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:11:13 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:11:13 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:11:13 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:11:13 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:11:13 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:11:13 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:11:30 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:11:31 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:11:31 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:11:31 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:12:02 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:12:02 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:12:03 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:12:03 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:15:33 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:15:34 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:15:34 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:15:35 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:15:35 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:15:35 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:15:35 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:15:36 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:15:36 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:15:36 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:15:37 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:15:38 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:15:38 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:15:38 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:16:27 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:16:28 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:16:31 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 21:18:04 --> Undefined property: App\Controllers\GenerateReport::$input
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 22:27:54 --> Invalid file: admin/v_printpdfBio.php
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/v_printpd...')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(82): view('admin/v_printpd...', Array)
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-24 22:50:59 --> Undefined array key 7
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\v_printpdf.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(84): view('admin/v_printpd...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 22:51:08 --> Undefined array key 2
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\v_printpdf.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(84): view('admin/v_printpd...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 22:51:10 --> Undefined array key 2
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\v_printpdf.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(84): view('admin/v_printpd...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 22:53:43 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\v_printpdf.php(20): date('w', '2021-08-25')
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(84): view('admin/v_printpd...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 22:55:15 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\v_printpdf.php(20): date('w', '2021-08-23')
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(84): view('admin/v_printpd...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 22:55:24 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\v_printpdf.php(20): date('w', '2021-08-23')
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(84): view('admin/v_printpd...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 22:55:25 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\v_printpdf.php(20): date('w', '2021-08-23')
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(84): view('admin/v_printpd...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 23:03:57 --> Call to a member function format() on string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-24 23:15:13 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\v_printpdf.php(24): date('d', '2021-08-30')
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(90): view('admin/v_printpd...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 23:16:34 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\v_printpdf.php(24): date('w', '2021-08-30')
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(90): view('admin/v_printpd...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 23:16:35 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\v_printpdf.php(24): date('w', '2021-08-30')
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(90): view('admin/v_printpd...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-24 23:27:08 --> str_replace(): Argument #3 ($subject) must be of type array|string, TCPDF given
+#0 C:\xampp\htdocs\WMS3\vendor\tecnickcom\tcpdf\tcpdf.php(5142): str_replace('\xC2\xA0', ' ', Object(TCPDF))
+#1 C:\xampp\htdocs\WMS3\vendor\tecnickcom\tcpdf\tcpdf.php(5114): TCPDF->getCellCode(0, 5.49275, Object(TCPDF), 1, 1, 'L', 1, 0, 0, true, 'T', 'M')
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(106): TCPDF->Cell(0, 5.49275, Object(TCPDF), 1, 1, 'L', 1, 0)
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-24 23:27:26 --> Undefined variable $text
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 23:27:26 --> Undefined variable $text
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 23:33:16 --> Undefined property: App\Controllers\GenerateReport::$langSettings
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-24 23:56:05 --> Undefined array key 0
+#0 C:\xampp\htdocs\WMS3\vendor\tecnickcom\tcpdf\tcpdf.php(17276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17276)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(99): TCPDF->writeHTML('<!-- DEBUG-VIEW...')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-24 23:57:42 --> Undefined variable $html
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\v_printpdf.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 94)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/v_printpd...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(93): view('admin/v_printpd...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

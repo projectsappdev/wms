@@ -1,0 +1,234 @@
+CRITICAL - 2021-09-20 20:04:11 --> Object of class App\Models\Manage\ReportsModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-20 20:04:31 --> Object of class App\Models\Manage\ReportsModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-20 20:04:32 --> Object of class App\Models\Manage\ReportsModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-20 20:04:57 --> Object of class App\Models\Manage\ReportsModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-20 20:04:58 --> Object of class App\Models\Manage\ReportsModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-20 20:04:59 --> Object of class App\Models\Manage\ReportsModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-20 20:06:01 --> Object of class App\Models\Manage\ReportsModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-20 20:06:02 --> Object of class App\Models\Manage\ReportsModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-20 20:06:03 --> Object of class App\Models\Manage\ReportsModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-20 20:06:36 --> Object of class App\Models\Manage\ReportsModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-20 20:06:36 --> Object of class App\Models\Manage\ReportsModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-20 20:06:37 --> Object of class App\Models\Manage\ReportsModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-20 20:06:37 --> Object of class App\Models\Manage\ReportsModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-20 20:09:36 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-20 20:10:02 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-20 20:10:08 --> Undefined array key "status"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\ReportGeneration.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 20:10:15 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-20 20:10:15 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-20 20:10:54 --> Attempt to read property "status" on array
+#0 C:\xampp\htdocs\WMS3\app\Controllers\ReportGeneration.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 20:10:55 --> Attempt to read property "status" on array
+#0 C:\xampp\htdocs\WMS3\app\Controllers\ReportGeneration.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 20:11:40 --> Attempt to read property "position" on array
+#0 C:\xampp\htdocs\WMS3\app\Controllers\ReportGeneration.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 20:11:41 --> Attempt to read property "position" on array
+#0 C:\xampp\htdocs\WMS3\app\Controllers\ReportGeneration.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 20:11:41 --> Attempt to read property "position" on array
+#0 C:\xampp\htdocs\WMS3\app\Controllers\ReportGeneration.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 20:12:12 --> Undefined array key "status"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\ReportGeneration.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 20:12:12 --> Undefined array key "status"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\ReportGeneration.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 20:12:13 --> Undefined array key "status"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\ReportGeneration.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 20:16:51 --> Undefined array key 2
+#0 C:\xampp\htdocs\WMS3\app\Controllers\ReportGeneration.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 20:16:52 --> Undefined array key 2
+#0 C:\xampp\htdocs\WMS3\app\Controllers\ReportGeneration.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->index()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-20 21:04:09 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\administrator\generate_report.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('administrator/g...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\ReportGeneration.php(350): view('administrator/g...')
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->DailyReport()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-20 21:04:23 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\administrator\generate_report.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('administrator/g...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\ReportGeneration.php(350): view('administrator/g...')
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->DailyReport()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-20 21:04:24 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\administrator\generate_report.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('administrator/g...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\ReportGeneration.php(350): view('administrator/g...')
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->DailyReport()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-20 21:05:58 --> Undefined variable $totalCounter
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\report\dailyValidationReportSummary.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/report/da...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\ReportGeneration.php(211): view('admin/report/da...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->DailyReport()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-20 22:13:03 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\administrator\generate_report.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('administrator/g...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\ReportGeneration.php(350): view('administrator/g...')
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->DailyReport()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

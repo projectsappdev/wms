@@ -1,0 +1,877 @@
+CRITICAL - 2021-08-25 00:10:30 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(98): TCPDF->Cell(0, 'City Government...', 0, 0, 'C')
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-25 01:26:31 --> Undefined variable $counter_1
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\u_printpdf.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/u_printpd...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(129): view('admin/u_printpd...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-25 03:53:34 --> Undefined array key "date"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 198)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-25 03:54:00 --> Class "PhpOffice\PhpSpreadSheet\Writer\XLsx" not found
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 03:54:51 --> Class "PhpOffice\PhpSpreadSheet\Writer\Xlsx" not found
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 04:04:13 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 04:05:15 --> fopen(upload/users.xlsx): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(upload/us...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(111): fopen('upload/users.xl...', 'wb+')
+#2 C:\xampp\htdocs\WMS3\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(504): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('upload/users.xl...')
+#3 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(203): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('upload/users.xl...')
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-25 04:05:39 --> fopen(upload/users.xlsx): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(upload/us...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(111): fopen('upload/users.xl...', 'wb+')
+#2 C:\xampp\htdocs\WMS3\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(504): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('upload/users.xl...')
+#3 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(203): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('upload/users.xl...')
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-25 04:05:46 --> fopen(upload/users.xlsx): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(upload/us...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(111): fopen('upload/users.xl...', 'wb+')
+#2 C:\xampp\htdocs\WMS3\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(504): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('upload/users.xl...')
+#3 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(203): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('upload/users.xl...')
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-25 04:05:51 --> fopen(upload/users.xlsx): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(upload/us...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\WMS3\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(111): fopen('upload/users.xl...', 'wb+')
+#2 C:\xampp\htdocs\WMS3\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(504): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('upload/users.xl...')
+#3 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(203): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('upload/users.xl...')
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-25 04:06:36 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(205): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:06:38 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(205): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:06:43 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(205): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:06:46 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(205): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:06:48 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(205): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:06:49 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(205): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:06:54 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(205): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:06:56 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(205): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:07:01 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(205): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:10:21 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(205): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:10:24 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(205): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:11:02 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(205): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:12:02 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(205): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:17:03 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:18:27 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(65): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-25 04:18:29 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(65): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-25 04:18:58 --> Undefined variable $users
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\generate_report.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/generate_...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(65): view('admin/generate_...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-25 04:20:19 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:20:21 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:20:26 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:20:41 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:20:43 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:20:53 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:21:24 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:22:24 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:24:02 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:24:03 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:24:08 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:25:26 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:25:27 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:25:33 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:26:20 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:26:26 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:26:30 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:26:44 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:27:26 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:27:30 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:27:46 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:28:16 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:28:18 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:28:24 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:28:41 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:29:43 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:29:44 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:32:20 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:32:37 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:32:38 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:32:44 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:32:46 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:33:16 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:33:45 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:38:57 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:38:58 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:39:04 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:39:34 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(208): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 04:41:20 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(180): redirect('https://localho...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->asar()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 05:44:35 --> Undefined variable $sheet
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 192)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-25 06:04:24 --> Undefined array key "id"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(237): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 237)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-25 06:06:00 --> Undefined array key "date_c"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(237): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 237)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-25 06:07:51 --> Undefined array key "date_c"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(237): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 237)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-25 06:10:30 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 06:10:38 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 06:11:06 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 06:15:30 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 06:16:16 --> Undefined array key "date_c"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-25 06:16:40 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\WMS3\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('generatereport/...')
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('generatereport/...')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-25 06:16:48 --> Undefined array key "date_c"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-25 06:17:53 --> Undefined array key "date_c"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-25 06:18:04 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 06:18:05 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 06:18:17 --> Array to string conversion
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-25 06:20:10 --> Undefined array key "sumVol"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-25 06:20:28 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->excel_monthly()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 06:20:43 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-25 06:22:01 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 06:23:13 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 06:23:21 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 06:23:22 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 06:33:45 --> Array to string conversion
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-25 06:41:07 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 06:41:16 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 06:42:47 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 06:42:48 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 06:44:33 --> Undefined array key "date_c"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 74)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->viewJ()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-08-25 08:02:11 --> Unknown column 'account_type' in 'where clause'
+CRITICAL - 2021-08-25 08:02:11 --> Unknown column 'account_type' in 'where clause'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\WMS3\app\Controllers\Admin.php(64): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Admin->display()
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-08-25 08:02:57 --> Unknown column 'account_type' in 'where clause'
+CRITICAL - 2021-08-25 08:02:57 --> Unknown column 'account_type' in 'where clause'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\WMS3\app\Controllers\Admin.php(64): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Admin->display()
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-08-25 08:02:58 --> Unknown column 'account_type' in 'where clause'
+CRITICAL - 2021-08-25 08:02:58 --> Unknown column 'account_type' in 'where clause'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\WMS3\app\Controllers\Admin.php(64): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Admin->display()
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-08-25 08:03:19 --> Object of class App\Models\AdminModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Admin->display()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-08-25 08:05:56 --> Unknown column 'account_type' in 'where clause'
+CRITICAL - 2021-08-25 08:05:56 --> Unknown column 'account_type' in 'where clause'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\WMS3\app\Controllers\Admin.php(65): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Admin->display()
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-08-25 08:26:39 --> Table 'dbwms.administrator' doesn't exist
+CRITICAL - 2021-08-25 08:26:39 --> Table 'dbwms.administrator' doesn't exist
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\WMS3\app\Controllers\Admin.php(65): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Admin->loginAuth()
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-08-25 08:37:20 --> Invalid file: hello Dahsboard.php
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hello Dahsboard...')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('hello Dahsboard', Array, true)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\Administrator.php(25): view('hello Dahsboard')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Administrator->dashboard()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-25 08:58:40 --> authFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\WMS3\system\Filters\Filters.php(373): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(398): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 08:58:57 --> authFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\WMS3\system\Filters\Filters.php(373): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(398): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-25 08:59:09 --> authFilter filter must have a matching alias defined.
+#0 C:\xampp\htdocs\WMS3\system\Filters\Filters.php(373): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(398): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

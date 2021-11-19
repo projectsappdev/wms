@@ -1,0 +1,450 @@
+CRITICAL - 2021-08-21 19:04:07 --> Undefined variable $user_data
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\manage_admin_account.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/manage_ad...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccountAdmin.php(14): view('admin/manage_ad...')
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccountAdmin->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccountAdmin))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-21 19:05:41 --> Undefined variable $user_data
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\manage_admin_account.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/manage_ad...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccountAdmin.php(14): view('admin/manage_ad...')
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccountAdmin->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccountAdmin))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-21 20:32:03 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 20:32:07 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 20:32:15 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 20:32:16 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 20:34:03 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 20:34:37 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 20:35:23 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 20:39:25 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 20:42:32 --> syntax error, unexpected token "*", expecting "function" or "const"
+#0 C:\xampp\htdocs\WMS3\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\WMS3\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Wast...')
+#2 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(18): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Wast...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-21 20:44:06 --> Undefined array key "length"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 20:46:06 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 20:47:13 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 20:49:41 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 20:54:05 --> Undefined array key "search"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 20:55:38 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 20:55:56 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 20:56:18 --> Undefined array key "search"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 20:56:26 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 20:56:27 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 20:56:33 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 20:57:33 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-08-21 20:58:58 --> Unknown column 'asc' in 'order clause'
+CRITICAL - 2021-08-21 20:58:58 --> Unknown column 'asc' in 'order clause'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-21 21:05:33 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 21:09:36 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 21:10:05 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 21:12:02 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 21:13:49 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 21:15:42 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(20): App\Models\WasteBarangayModel->get_datatables()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-08-21 22:38:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''  AND `waste_type` = ''
+ORDER BY `brgy_name` ASC
+ LIMIT 10' at line 3
+CRITICAL - 2021-08-21 22:38:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''  AND `waste_type` = ''
+ORDER BY `brgy_name` ASC
+ LIMIT 10' at line 3
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(87): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('')
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-21 22:39:12 --> Undefined variable $search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 22:39:39 --> Undefined variable $search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 22:40:08 --> Too few arguments to function App\Models\WasteBarangayModel::get_datatables(), 1 passed in C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php on line 24 and exactly 2 expected
+#0 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('')
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-21 22:56:15 --> Undefined variable $data_search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('', NULL)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 22:56:45 --> Undefined variable $data_search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('', NULL)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 22:57:20 --> Undefined variable $data_search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('', NULL)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 22:58:11 --> Undefined variable $data_search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('', '')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 22:58:25 --> Undefined variable $data_search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('', '')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 22:59:13 --> Undefined variable $data_search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('', '')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 22:59:18 --> Undefined variable $data_search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('Biodegradable', '')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 22:59:44 --> Undefined variable $data_search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('', '')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 23:00:15 --> Undefined variable $data_search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('', NULL)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 23:08:33 --> Undefined variable $data_search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('', NULL)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 23:16:45 --> Undefined variable $data_search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('', NULL)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 23:17:58 --> Undefined variable $data_search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('', NULL)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 23:18:38 --> Undefined variable $data_search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('', NULL)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 23:19:55 --> Undefined variable $data_search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('', NULL)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 23:20:28 --> Undefined variable $data_search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('', 'Tapuac')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 23:20:42 --> Undefined variable $data_search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('', 'Tapuac')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 23:22:17 --> Undefined variable $data_search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('', 'Tapuac')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 23:22:52 --> Undefined variable $data_search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('', 'Tapuac')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 23:23:38 --> Undefined variable $data_search
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(24): App\Models\WasteBarangayModel->get_datatables('', 'Tapuac')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-21 23:34:22 --> Call to undefined method stdClass::created_at()
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

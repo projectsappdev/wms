@@ -1,0 +1,431 @@
+CRITICAL - 2021-09-17 12:42:06 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:42:42 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:42:43 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:42:43 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:42:43 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:42:43 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:42:44 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:42:44 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:42:44 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:42:44 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:42:44 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:42:44 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:42:45 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:42:45 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:42:45 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:43:04 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:43:22 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:44:20 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:44:21 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:44:21 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:44:22 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:44:34 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:44:35 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:44:50 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 12:45:57 --> Division by zero
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(31): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-17 01:15:11 --> implode(): Argument #1 ($pieces) must be of type array, string given
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(78): implode('', '', NULL)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables(1, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 01:25:05 --> Undefined variable $data_select_waste
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(36): App\Models\WasteBarangayModel->get_datatables('1', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 01:25:07 --> implode(): Argument #1 ($pieces) must be of type array, string given
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(80): implode('', '', NULL)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(36): App\Models\WasteBarangayModel->get_datatables(NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 01:25:12 --> Undefined variable $data_select_waste
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(36): App\Models\WasteBarangayModel->get_datatables('1', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 01:25:15 --> Undefined variable $data_select_waste
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(36): App\Models\WasteBarangayModel->get_datatables('1', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 01:26:09 --> Undefined variable $data_select_waste
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(36): App\Models\WasteBarangayModel->get_datatables('1', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 01:26:13 --> Undefined variable $data_select_waste
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 106)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(36): App\Models\WasteBarangayModel->get_datatables('1', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-17 01:27:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND DATE(created_at) BETWEEN DATE(SUBDATE(NOW(), INTERVAL 1 DAY)) AND CURDATE...' at line 3
+CRITICAL - 2021-09-17 01:27:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND DATE(created_at) BETWEEN DATE(SUBDATE(NOW(), INTERVAL 1 DAY)) AND CURDATE...' at line 3
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(36): App\Models\WasteBarangayModel->get_datatables('1', '', '', Array)
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-17 01:27:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND DATE(created_at) BETWEEN DATE(SUBDATE(NOW(), INTERVAL 1 DAY)) AND CURDATE...' at line 3
+CRITICAL - 2021-09-17 01:27:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND DATE(created_at) BETWEEN DATE(SUBDATE(NOW(), INTERVAL 1 DAY)) AND CURDATE...' at line 3
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(36): App\Models\WasteBarangayModel->get_datatables('1', '', '', Array)
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-17 01:27:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND DATE(created_at) BETWEEN DATE(SUBDATE(NOW(), INTERVAL 1 DAY)) AND CURDATE...' at line 3
+CRITICAL - 2021-09-17 01:27:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND DATE(created_at) BETWEEN DATE(SUBDATE(NOW(), INTERVAL 1 DAY)) AND CURDATE...' at line 3
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(36): App\Models\WasteBarangayModel->get_datatables('1', '', '', Array)
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-09-17 01:28:59 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 107)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(36): App\Models\WasteBarangayModel->get_datatables('', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 01:29:19 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 107)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(36): App\Models\WasteBarangayModel->get_datatables('', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 01:29:58 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(36): App\Models\WasteBarangayModel->get_datatables('1', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 01:30:21 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('1', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 01:30:24 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('1', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 01:30:28 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('Biodegradable', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 01:30:44 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('1', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 01:31:26 --> Undefined array key "order"
+#0 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(35): App\Models\WasteBarangayModel->get_datatables('1', '', '', Array)
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->table_data()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-17 02:33:08 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\administrator\generate_report.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('administrator/g...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\ReportGeneration.php(205): view('administrator/g...')
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ReportGeneration->DailyReport()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportGeneration))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-17 23:14:23 --> Undefined array key "id"
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\monitoring\brgy_waste_collection.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/monitorin...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\WasteBarangay.php(21): view('admin/monitorin...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\WasteBarangay->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WasteBarangay))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

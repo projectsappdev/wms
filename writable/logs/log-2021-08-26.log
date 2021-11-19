@@ -1,0 +1,36 @@
+ERROR - 2021-08-26 22:57:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 4
+CRITICAL - 2021-08-26 22:57:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 4
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(171): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(249): monken\TablesIgniter->getQuery()
+#6 C:\xampp\htdocs\WMS3\app\Controllers\ManageWaste.php(25): monken\TablesIgniter->getDatatable()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->fetch_allB()
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-08-26 22:57:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 4
+CRITICAL - 2021-08-26 22:57:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 4
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(171): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(249): monken\TablesIgniter->getQuery()
+#6 C:\xampp\htdocs\WMS3\app\Controllers\ManageWaste.php(25): monken\TablesIgniter->getDatatable()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->fetch_allB()
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

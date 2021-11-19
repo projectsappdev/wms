@@ -1,0 +1,161 @@
+CRITICAL - 2021-08-29 09:03:06 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\user_dumpsite\dataEntryDump.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('user_dumpsite/d...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\UserDumpsite.php(12): view('user_dumpsite/d...')
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserDumpsite->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDumpsite))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-29 09:03:20 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\user_dumpsite\dataEntryDump.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('user_dumpsite/d...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\UserDumpsite.php(12): view('user_dumpsite/d...')
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserDumpsite->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDumpsite))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-29 20:30:47 --> Call to undefined method App\Models\WasteDumpsiteModel::button
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserDumpsite.php(57): CodeIgniter\Model->__call('button', Array)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserDumpsite->fetchData()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDumpsite))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 21:28:42 --> Class "app\Models\Manage\WasteModel" not found
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Others->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Others))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-29 21:29:15 --> Class "app\Models\Manage\WasteModel" not found
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Others->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Others))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-29 21:29:15 --> Class "app\Models\Manage\WasteModel" not found
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Others->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Others))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-29 21:29:50 --> Undefined array key "waste_type"
+#0 C:\xampp\htdocs\WMS3\app\Views\settings\others.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('settings/others', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\Others.php(16): view('settings/others', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Others->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Others))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-29 21:31:33 --> Undefined variable $allowed
+#0 C:\xampp\htdocs\WMS3\app\Views\settings\others.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('settings/others', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\Others.php(16): view('settings/others', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Others->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Others))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-29 21:32:02 --> Undefined variable $allowed
+#0 C:\xampp\htdocs\WMS3\app\Views\settings\others.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('settings/others', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\Others.php(16): view('settings/others', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Others->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Others))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-29 21:32:04 --> Undefined variable $allowed
+#0 C:\xampp\htdocs\WMS3\app\Views\settings\others.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('settings/others', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\Others.php(16): view('settings/others', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Others->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Others))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-29 22:10:04 --> There is no data to update.
+#0 C:\xampp\htdocs\WMS3\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\WMS3\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\Others.php(39): CodeIgniter\Model->update('3 ', Array)
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Others->updateAllow()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Others))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-29 22:29:19 --> There is no data to update.
+#0 C:\xampp\htdocs\WMS3\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\WMS3\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\Others.php(39): CodeIgniter\Model->update('3 ', Array)
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Others->updateAllow()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Others))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-29 22:31:54 --> There is no data to update.
+#0 C:\xampp\htdocs\WMS3\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\WMS3\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\Others.php(39): CodeIgniter\Model->update('3 ', Array)
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Others->updateAllow()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Others))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-29 22:32:08 --> There is no data to update.
+#0 C:\xampp\htdocs\WMS3\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\WMS3\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\Others.php(39): CodeIgniter\Model->update('3 ', Array)
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Others->updateAllow()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Others))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-29 22:32:47 --> There is no data to update.
+#0 C:\xampp\htdocs\WMS3\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\WMS3\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\Others.php(39): CodeIgniter\Model->update('3 ', Array)
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Others->updateAllow()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Others))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-29 23:46:29 --> Undefined array key "startcolumn"
+#0 C:\xampp\htdocs\WMS3\vendor\tecnickcom\tcpdf\tcpdf.php(19626): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19626)
+#1 C:\xampp\htdocs\WMS3\vendor\tecnickcom\tcpdf\tcpdf.php(18404): TCPDF->closeHTMLTagHandler(Array, 21, false, 63.390137)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(149): TCPDF->writeHTML('<!-- DEBUG-VIEW...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-29 23:47:09 --> Undefined array key "startcolumn"
+#0 C:\xampp\htdocs\WMS3\vendor\tecnickcom\tcpdf\tcpdf.php(19626): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19626)
+#1 C:\xampp\htdocs\WMS3\vendor\tecnickcom\tcpdf\tcpdf.php(18404): TCPDF->closeHTMLTagHandler(Array, 21, false, 63.390137)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(149): TCPDF->writeHTML('<!-- DEBUG-VIEW...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-29 23:54:39 --> date(): Argument #2 ($timestamp) must be of type ?int, DateTimeZone given
+#0 C:\xampp\htdocs\WMS3\app\Controllers\GenerateReport.php(147): date('Y-m-d h:i:s', Object(DateTimeZone))
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\GenerateReport->printpdfBio()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GenerateReport))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

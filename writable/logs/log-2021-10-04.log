@@ -1,0 +1,395 @@
+CRITICAL - 2021-10-04 12:35:41 --> monken\TablesIgniter::setTable(): Argument #1 ($builder) must be of type CodeIgniter\Database\BaseBuilder, App\Models\WasteBarangayModel given, called in C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php on line 127
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(127): monken\TablesIgniter->setTable(Object(App\Models\WasteBarangayModel))
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->getSubmissionDate()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 12:38:07 --> monken\TablesIgniter::setTable(): Argument #1 ($builder) must be of type CodeIgniter\Database\BaseBuilder, App\Models\WasteBarangayModel given, called in C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php on line 127
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(127): monken\TablesIgniter->setTable(Object(App\Models\WasteBarangayModel))
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->getSubmissionDate()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 12:38:33 --> monken\TablesIgniter::setTable(): Argument #1 ($builder) must be of type CodeIgniter\Database\BaseBuilder, App\Models\WasteBarangayModel given, called in C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php on line 127
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(127): monken\TablesIgniter->setTable(Object(App\Models\WasteBarangayModel))
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->getSubmissionDate()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 12:42:07 --> monken\TablesIgniter::setTable(): Argument #1 ($builder) must be of type CodeIgniter\Database\BaseBuilder, App\Models\WasteBarangayModel given, called in C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php on line 127
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(127): monken\TablesIgniter->setTable(Object(App\Models\WasteBarangayModel))
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->getSubmissionDate()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 00:12:24 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->getSubmissionDate()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 00:16:06 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->getSubmissionDate()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 00:28:35 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 00:29:46 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 00:30:47 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 00:34:44 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 00:34:53 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 00:35:10 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 00:35:52 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 00:36:06 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 00:37:04 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 00:37:36 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 00:37:54 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 00:38:13 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 00:38:33 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 00:39:00 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 00:39:47 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 00:41:06 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 13:58:20 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\user_brgy\backlog_entry.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('user_brgy/backl...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(124): view('user_brgy/backl...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-04 01:21:08 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:21:57 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:21:58 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:22:15 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:22:16 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:22:17 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:22:53 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:22:54 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:22:59 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:23:01 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:23:02 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:23:02 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:23:03 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:23:04 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:23:45 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:23:47 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:24:27 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:25:52 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:26:11 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:26:37 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(125): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:26:54 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(128): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 01:48:10 --> Must be requested by jQuery DataTables.
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(128): monken\TablesIgniter->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 16:09:44 --> Attempt to read property "waste_type" on array
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 133)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 16:59:51 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-04 17:20:54 --> Undefined array key "draw"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 144)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 17:21:18 --> Undefined array key "draw"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 144)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 17:22:03 --> Undefined array key "draw"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 144)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 17:22:18 --> Undefined array key "draw"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 144)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 17:22:55 --> Undefined array key "draw"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 144)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 17:24:01 --> Undefined array key "draw"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 144)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 17:24:13 --> Undefined array key "draw"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 144)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 17:24:42 --> Undefined array key "draw"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 144)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-04 17:25:02 --> Undefined array key "draw"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 144)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->backLogDisplay()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

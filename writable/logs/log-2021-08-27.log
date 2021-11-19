@@ -1,0 +1,655 @@
+CRITICAL - 2021-08-27 01:05:54 --> There is no data to insert.
+#0 C:\xampp\htdocs\WMS3\system\BaseModel.php(751): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\WMS3\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\WMS3\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\ManageWaste.php(55): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->actionB()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-27 01:07:25 --> There is no data to insert.
+#0 C:\xampp\htdocs\WMS3\system\BaseModel.php(751): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\WMS3\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\WMS3\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\ManageWaste.php(55): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->actionB()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-27 01:07:38 --> There is no data to insert.
+#0 C:\xampp\htdocs\WMS3\system\BaseModel.php(751): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\WMS3\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\WMS3\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\WMS3\app\Controllers\ManageWaste.php(55): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->actionB()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-27 01:10:43 --> Undefined variable $waste_type_error
+#0 C:\xampp\htdocs\WMS3\app\Controllers\ManageWaste.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->actionB()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-27 01:11:01 --> Undefined variable $waste_type_error
+#0 C:\xampp\htdocs\WMS3\app\Controllers\ManageWaste.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->actionB()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-27 01:11:11 --> Undefined variable $waste_type_error
+#0 C:\xampp\htdocs\WMS3\app\Controllers\ManageWaste.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->actionB()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-08-27 01:11:40 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-08-27 01:11:40 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `wa...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\WMS3\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\WMS3\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\WMS3\app\Controllers\ManageWaste.php(53): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->actionB()
+#10 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#11 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-08-27 01:13:45 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-08-27 01:13:45 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `wa...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\WMS3\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\WMS3\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\WMS3\app\Controllers\ManageWaste.php(53): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->actionB()
+#10 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#11 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-08-27 01:17:45 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-08-27 01:17:45 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `wa...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\WMS3\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\WMS3\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\WMS3\app\Controllers\ManageWaste.php(53): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->actionB()
+#10 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#11 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-08-27 01:18:44 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-08-27 01:18:44 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `wa...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\WMS3\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\WMS3\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\WMS3\app\Controllers\ManageWaste.php(53): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->actionB()
+#10 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#11 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-08-27 01:19:03 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-08-27 01:19:03 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `wa...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\WMS3\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\WMS3\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\WMS3\app\Controllers\ManageWaste.php(53): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->actionB()
+#10 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#11 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-08-27 01:20:07 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-08-27 01:20:07 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `wa...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\WMS3\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\WMS3\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\WMS3\app\Controllers\ManageWaste.php(53): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->actionB()
+#10 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#11 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-08-27 01:22:05 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-08-27 01:22:05 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `wa...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\WMS3\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\WMS3\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\WMS3\app\Controllers\ManageWaste.php(53): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->actionB()
+#10 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#11 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-08-27 01:23:20 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-08-27 01:23:20 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `wa...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\WMS3\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\WMS3\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\WMS3\app\Controllers\ManageWaste.php(53): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->actionB()
+#10 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#11 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-08-27 01:30:36 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-08-27 01:30:36 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `wa...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `wa...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `wa...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `wa...', Array, false)
+#4 C:\xampp\htdocs\WMS3\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\WMS3\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\WMS3\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\WMS3\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\WMS3\app\Controllers\ManageWaste.php(53): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->actionB()
+#10 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#11 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-08-27 01:33:56 --> Undefined array key "type"
+#0 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 188)
+#1 C:\xampp\htdocs\WMS3\vendor\monken\tablesigniter\src\TablesIgniter.php(252): monken\TablesIgniter->getOutputData(Array)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\ManageWaste.php(26): monken\TablesIgniter->getDatatable()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->fetch_allB()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-27 02:10:27 --> Object of class App\Models\Manage\WasteModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccountAdmin->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccountAdmin))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 02:13:12 --> Object of class App\Models\Manage\WasteModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccountAdmin->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccountAdmin))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 02:13:31 --> Object of class App\Models\Manage\WasteModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccountAdmin->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccountAdmin))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 02:13:32 --> Object of class App\Models\Manage\WasteModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccountAdmin->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccountAdmin))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 02:13:32 --> Object of class App\Models\Manage\WasteModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccountAdmin->index()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccountAdmin))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 02:19:22 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\manage_admin_account.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/manage_ad...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccountAdmin.php(17): view('admin/manage_ad...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccountAdmin->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccountAdmin))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-27 02:20:57 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\manage_admin_account.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/manage_ad...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccountAdmin.php(17): view('admin/manage_ad...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccountAdmin->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccountAdmin))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-27 02:20:58 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\manage_admin_account.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/manage_ad...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccountAdmin.php(17): view('admin/manage_ad...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccountAdmin->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccountAdmin))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-27 02:20:58 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\manage_admin_account.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/manage_ad...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccountAdmin.php(17): view('admin/manage_ad...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccountAdmin->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccountAdmin))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-27 02:20:59 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\manage_admin_account.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/manage_ad...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccountAdmin.php(17): view('admin/manage_ad...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccountAdmin->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccountAdmin))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-27 02:20:59 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\manage_admin_account.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/manage_ad...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccountAdmin.php(17): view('admin/manage_ad...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccountAdmin->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccountAdmin))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-27 02:21:38 --> Undefined variable $data
+#0 C:\xampp\htdocs\WMS3\app\Views\admin\manage_admin_account.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/manage_ad...', Array, true)
+#4 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccountAdmin.php(17): view('admin/manage_ad...', Array)
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccountAdmin->index()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccountAdmin))
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-27 02:24:39 --> Invalid file: admin/manage_admin-account.php
+#0 C:\xampp\htdocs\WMS3\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/manage_ad...')
+#1 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/manage_ad...', Array, true)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\ManageAccountAdmin.php(19): view('admin/manage_ad...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccountAdmin->index()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccountAdmin))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-27 06:51:59 --> Class "App\Models\Report\ReportModel" not found
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(900): App\Controllers\GenerateReport->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 06:52:25 --> Class "App\Models\Report\ReportModel" not found
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(900): App\Controllers\GenerateReport->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 06:52:59 --> Class "App\Models\Report\ReportModel" not found
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(900): App\Controllers\GenerateReport->__construct()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 06:54:32 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\WMS3\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\WMS3\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-27 06:56:50 --> Class "App\Models\Manage\ManageBarangayModel" not found
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageAccount->fetch_allB()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAccount))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 07:02:40 --> Class "App\Models\Manage\WasteModel" not found
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->fetch_allB()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 07:06:59 --> Class "App\Models\Manage\WasteModel" not found
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->fetch_allB()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 07:07:02 --> Class "App\Models\Manage\WasteModel" not found
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ManageWaste->fetch_allB()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageWaste))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 18:31:59 --> Array to string conversion
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->CountingRows()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-27 18:38:28 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->CountingRows()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 18:38:42 --> Object of class App\Models\WasteBarangayModel could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->CountingRows()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 18:40:44 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->CountingRows()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-08-27 18:41:51 --> Unknown column 'dreated_at' in 'order clause'
+CRITICAL - 2021-08-27 18:41:51 --> Unknown column 'dreated_at' in 'order clause'
+#0 C:\xampp\htdocs\WMS3\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `waste_t...')
+#1 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `waste_t...')
+#2 C:\xampp\htdocs\WMS3\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `waste_t...')
+#3 C:\xampp\htdocs\WMS3\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `waste_t...', Array, false)
+#4 C:\xampp\htdocs\WMS3\app\Models\WasteBarangayModel.php(148): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(24): App\Models\WasteBarangayModel->getWasteType()
+#6 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->CountingRows()
+#7 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#8 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-27 18:46:48 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->CountingRows()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 18:50:55 --> preg_match_all(): Argument #2 ($subject) must be of type string, stdClass given
+#0 C:\xampp\htdocs\WMS3\system\HTTP\RequestTrait.php(291): preg_match_all('/(?:^[^\\[]+)|\\[...', Object(stdClass), NULL)
+#1 C:\xampp\htdocs\WMS3\system\HTTP\IncomingRequest.php(561): CodeIgniter\HTTP\Request->fetchGlobal('request', Object(stdClass), 516, 0)
+#2 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(41): CodeIgniter\HTTP\IncomingRequest->getVar(Object(stdClass))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->TryInsert()
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#5 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-27 18:53:32 --> Array to string conversion
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->CountingRows()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-27 18:54:36 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->CountingRows()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 18:57:07 --> Undefined array key "waste_type"
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->CountingRows()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-27 19:03:08 --> Array to string conversion
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->CountingRows()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-27 19:03:21 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->CountingRows()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 19:03:22 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->CountingRows()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 19:03:27 --> Undefined variable $dataR
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->CountingRows()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-27 19:24:54 --> syntax error, unexpected single-quoted string "waste_type", expecting "]"
+#0 C:\xampp\htdocs\WMS3\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('UserBarangay/Co...')
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('UserBarangay/Co...')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-27 19:25:03 --> Array to string conversion
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->CountingRows()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-27 19:26:12 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->CountingRows()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 19:26:27 --> Undefined variable $arr
+#0 C:\xampp\htdocs\WMS3\app\Controllers\UserBarangay.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->CountingRows()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-27 19:26:55 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\UserBarangay->CountingRows()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserBarangay))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 21:22:17 --> parse_ini_file(config.ini): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'parse_ini_file(...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\WMS3\app\Views\settings\limit.php(12): parse_ini_file('config.ini', false, 1)
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\WMS3\system\View\View.php(487): CodeIgniter\View\View->render('settings/limit....', NULL, true)
+#5 C:\xampp\htdocs\WMS3\app\Views\admin\dashboard.php(214): CodeIgniter\View\View->include('settings/limit....')
+#6 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#9 C:\xampp\htdocs\WMS3\app\Controllers\Admin.php(25): view('admin/dashboard')
+#10 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Admin->dashboard()
+#11 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#12 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-08-27 21:22:48 --> parse_ini_file(config.ini): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'parse_ini_file(...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\WMS3\app\Views\settings\limit.php(12): parse_ini_file('config.ini', false, 1)
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\WMS3\system\View\View.php(487): CodeIgniter\View\View->render('settings/limit....', NULL, true)
+#5 C:\xampp\htdocs\WMS3\app\Views\admin\dashboard.php(214): CodeIgniter\View\View->include('settings/limit....')
+#6 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#9 C:\xampp\htdocs\WMS3\app\Controllers\Admin.php(25): view('admin/dashboard')
+#10 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Admin->dashboard()
+#11 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#12 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-08-27 21:23:29 --> parse_ini_file(config.ini): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'parse_ini_file(...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\WMS3\app\Views\settings\limit.php(12): parse_ini_file('config.ini', false, 1)
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\WMS3\system\View\View.php(487): CodeIgniter\View\View->render('settings/limit....', NULL, true)
+#5 C:\xampp\htdocs\WMS3\app\Views\admin\dashboard.php(214): CodeIgniter\View\View->include('settings/limit....')
+#6 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#9 C:\xampp\htdocs\WMS3\app\Controllers\Admin.php(25): view('admin/dashboard')
+#10 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Admin->dashboard()
+#11 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#12 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-08-27 21:42:37 --> Call to undefined function App\Controllers\write_file()
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ConfigLimit->writeLimit()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfigLimit))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 21:44:07 --> Call to undefined function App\Controllers\write_file()
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ConfigLimit->writeLimit()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfigLimit))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 21:44:36 --> readfile(./data.txt): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(./data...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\ConfigLimit.php(19): readfile('./data.txt')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ConfigLimit->readLimit()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfigLimit))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-27 21:44:52 --> Call to undefined function App\Controllers\write_file()
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ConfigLimit->writeLimit()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfigLimit))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 21:44:53 --> Call to undefined function App\Controllers\write_file()
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ConfigLimit->writeLimit()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfigLimit))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 21:44:53 --> Call to undefined function App\Controllers\write_file()
+#0 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ConfigLimit->writeLimit()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfigLimit))
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 21:51:37 --> readfile(C:\xampp\htdocs\WMS3\writable): Failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(C:\\xam...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\WMS3\app\Controllers\ConfigLimit.php(20): readfile('C:\\xampp\\htdocs...', 'data.txt')
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ConfigLimit->readLimit()
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfigLimit))
+#4 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-27 21:58:32 --> write_file(): Argument #2 ($data) must be of type string, null given, called in C:\xampp\htdocs\WMS3\app\Controllers\ConfigLimit.php on line 16
+#0 C:\xampp\htdocs\WMS3\app\Controllers\ConfigLimit.php(16): write_file('data.txt', NULL)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ConfigLimit->writeLimit()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfigLimit))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-27 21:58:35 --> write_file(): Argument #2 ($data) must be of type string, null given, called in C:\xampp\htdocs\WMS3\app\Controllers\ConfigLimit.php on line 16
+#0 C:\xampp\htdocs\WMS3\app\Controllers\ConfigLimit.php(16): write_file('data.txt', NULL)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ConfigLimit->writeLimit()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfigLimit))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-27 21:58:36 --> write_file(): Argument #2 ($data) must be of type string, null given, called in C:\xampp\htdocs\WMS3\app\Controllers\ConfigLimit.php on line 16
+#0 C:\xampp\htdocs\WMS3\app\Controllers\ConfigLimit.php(16): write_file('data.txt', NULL)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ConfigLimit->writeLimit()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfigLimit))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-27 21:58:36 --> write_file(): Argument #2 ($data) must be of type string, null given, called in C:\xampp\htdocs\WMS3\app\Controllers\ConfigLimit.php on line 16
+#0 C:\xampp\htdocs\WMS3\app\Controllers\ConfigLimit.php(16): write_file('data.txt', NULL)
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\ConfigLimit->writeLimit()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfigLimit))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-27 21:59:06 --> Undefined variable $title
+#0 C:\xampp\htdocs\WMS3\app\Views\settings\limit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\View\View.php(487): CodeIgniter\View\View->render('settings/limit....', NULL, true)
+#4 C:\xampp\htdocs\WMS3\app\Views\admin\dashboard.php(214): CodeIgniter\View\View->include('settings/limit....')
+#5 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#8 C:\xampp\htdocs\WMS3\app\Controllers\Admin.php(25): view('admin/dashboard')
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Admin->dashboard()
+#10 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-08-27 21:59:10 --> Undefined variable $title
+#0 C:\xampp\htdocs\WMS3\app\Views\settings\limit.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WMS3\system\View\View.php(487): CodeIgniter\View\View->render('settings/limit....', NULL, true)
+#4 C:\xampp\htdocs\WMS3\app\Views\admin\dashboard.php(214): CodeIgniter\View\View->include('settings/limit....')
+#5 C:\xampp\htdocs\WMS3\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\WMS3\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\WMS3\system\Common.php(1271): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#8 C:\xampp\htdocs\WMS3\app\Controllers\Admin.php(25): view('admin/dashboard')
+#9 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Admin->dashboard()
+#10 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

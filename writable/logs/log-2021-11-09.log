@@ -1,0 +1,24 @@
+ERROR - 2021-11-09 12:53:43 --> Unknown column 'waste_type' in 'order clause'
+CRITICAL - 2021-11-09 12:53:43 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(32): App\Models\Manage\WasteModel->fetchWaste()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-11-09 12:56:48 --> Unknown column 'waste_type' in 'order clause'
+CRITICAL - 2021-11-09 12:56:48 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(32): App\Models\Manage\WasteModel->fetchWaste()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-11-09 13:00:33 --> Unknown column 'waste_type' in 'order clause'
+CRITICAL - 2021-11-09 13:00:33 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\WMS3\app\Controllers\Dashboard.php(32): App\Models\Manage\WasteModel->fetchWaste()
+#1 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\WMS3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WMS3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

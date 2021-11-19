@@ -23,7 +23,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'https:/localhost/wmsfinal/wms3/';
+	public $baseURL = 'https://github.com/projectsappdev/wms3/';
 
 	/**
 	 * --------------------------------------------------------------------------
